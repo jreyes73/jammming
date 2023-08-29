@@ -1,0 +1,164 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #D4E2D4;
+}
+ul {
+    margin-top: 0px;
+    background-color: #7A9D54;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    list-style-type: none;
+    gap: 8rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0px;
+    position: fixed;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.testimonial-container {
+    background-color: #F2EE9D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    height: auto;
+}
+
+.group-name {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #8C3333;
+    color: white;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#group-name-1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#group-name-2 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.description {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
+
+.description p {
+    margin-top: 0rem;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.image-container {
+    position: relative;
+    top: 110px;
+    justify-content: center;
+    gap: 10rem;
+    margin-bottom: 10rem;
+}
+
+.images-frame img {
+    height: 300px;
+    width: 300px;
+}
+
+#testimonial {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    max-width: 80%;
+    height: 75px;
+    flex-direction: column;
+}
+
+.second-image-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 3rem;
+}
+
+.footer {
+    position: relative;
+    top: 30rem;
+}
+
+.footer > ol {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    gap: 8rem;
+}
+
+.footer {
+    background-color: #7A9D54;
+    display: flex;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1250px) {
+    .image-container {
+        gap: 3rem;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    ul {
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    ol {
+        justify-content: center;
+        padding-left: 0px;
+    }
+    
+    .image-container {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    
+    .images-frame img {
+        height: 450px;
+        width: 450px;
+    }
+    
+    #testimonial {
+        font-size: x-large;
+    }
+
+    .second-image-container {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
